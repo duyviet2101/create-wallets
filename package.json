@@ -1,0 +1,11 @@
+{
+  "name": "CreateEtherAccount",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.13.2",
+    "write-excel-file": "^2.0.6"
+  },
+  "type": "module"
+}
