@@ -1,5 +1,7 @@
 import { ethers } from 'ethers';
 import writeXlsxFile from "write-excel-file/node";
+import dotenv from 'dotenv';
+dotenv.config();
 
 // Nhập số lượng ví muốn tạo
 const numOfWallets = process.env.num || 10; // Thay đổi giá trị này để tạo số lượng ví mong muốn
